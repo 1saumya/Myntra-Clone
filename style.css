@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar img {
+    width: 4%;
+}
+
+#navbar {
+    display:flex ;
+    flex-direction: row;
+    padding: 15px 44px;
+    box-shadow: 0px 1px 20px rgb(192, 192, 192);
+    z-index: -1;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+#navbar ul {
+    display:flex ;
+    flex-direction: row;
+    margin-left: 58px;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    margin-top: 14px;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+#navbar input {
+    width: 37%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+    font-size: 0.9rem;
+    padding: 0px 20px;
+    margin-left: 45px;
+    background-color: rgb(245, 245, 245);
+}
+
+#navbar i {
+    margin-top: 10px;
+    width: 2%;
+    margin-left: 30px;
+}
+
+#navbar .profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    
+}
+
+#navbar .profile p {
+    text-align: center;
+    margin-left: 19px;
+    font-size: 0.9rem;
+    color: gray;
+
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+}
+
+#card .connect {
+    display: flex;
+    
+}
+
+#card .connect img {
+    width: 100%;
+
+}
+
+#card .img {
+    width: 95%;
+    display: block;
+    margin: auto;
+
+}
+
+#crazy h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    color: gold;
+    margin-top: 30px;
+}
+
+#crazy .offers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#crazy .offers img {
+    width: 20%;
+}
+
+#app img {
+    width: 85%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+#category .cat .cat1 .detail {
+    background-color: rgb(219, 142, 0);
+    width: 15%;
+    text-align: center;
+    color: white;
+}
+
+#category h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    color: gold;
+    margin-top: 20px;
+}
+
+#category .cat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+#category .cat img {
+    padding: 5px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#category .last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#category .last img {
+    padding: 5px;
+    width: 80%;
+
+}
+
+#foot {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 40px 157px;
+    margin-top: 40px;
+
+}
+
+#foot table {
+    margin-left: 30px;
+    width: 70%;
+}
+
+#foot table thead tr td {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+#foot table tbody tr td {
+    font-size: 0.9rem;
+    color: gray;
+    padding: 3px 20px;
+}
+
+#foot h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 9px 20px;
+}
+
+#foot .app {
+    display: flex;
+    
+}
+
+#foot .app {
+    display: flex;
+}
+
+#foot .app .img2 {
+    margin-top: 10px;
+}
+
+#foot .appSect .logo  {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#foot .appSect .logo img  {
+    width: 35px;
+}
+
+#foot .discrip .point  {
+    display: flex;
+    padding: 10px;
+}
+
+#foot .discrip .point p  {
+    width: 100%;
+}
+
+#foot .discrip {
+    padding: 0px 40px;
+}
+
+
+
+
+
